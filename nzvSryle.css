@@ -1,0 +1,47 @@
+/* Basic styling */
+header img {
+    height: 60px;
+    margin-left: 40px;
+}
+
+body {
+    height: 125vh;
+    background-color: cyan; /* Set your desired background color */
+    font-family: times-new-roman;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: maroon;
+}
+
+/* Navigation bar styles */
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: purple; /* Set your desired link color on hover */
+}
