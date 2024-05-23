@@ -1,17 +1,17 @@
 /* Basic styling */
 header img {
     height: 100px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 body {
-    height: 125vh;
+    height: 100vh;
     background-image: url("Elements/Images/cityscape-anime-inspired-urban-area.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     font-family: times-new-roman;
-    margin-top: 80px;
+    margin-top: 120px;
     padding: 30px;
 }
 
