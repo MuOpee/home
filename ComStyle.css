@@ -3,7 +3,7 @@
 /* Set the background image for the body */
 body {
     background-image: url('Elements/Images/cityscape-anime-inspired-urban-area.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
 }
