@@ -2,7 +2,7 @@
 
 /* Set the background image for the body */
 body {
-    background-image: url('background.jpg');
+    background-image: url('Elements/Images/2151278822.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
@@ -16,8 +16,8 @@ img {
 
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: transparent;
+    color: black;
     text-align: center;
     padding: 10px;
     position: fixed;
