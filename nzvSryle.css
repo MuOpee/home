@@ -1,12 +1,15 @@
 /* Basic styling */
 header img {
-    height: 60px;
-    margin-left: 40px;
+    height: 100px;
+    margin-left: 80px;
 }
 
 body {
     height: 125vh;
-    background-image: url("your-image.jpg");
+    background-image: url("Elements/Images/cityscape-anime-inspired-urban-area.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     font-family: times-new-roman;
     margin-top: 80px;
     padding: 30px;
@@ -32,8 +35,12 @@ nav ul {
     display: flex;
 }
 
+nav ul li a {
+    font-size: 20px;
+}
+
 nav li {
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 nav a {
