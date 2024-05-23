@@ -1,45 +1,27 @@
+/* CSS file */
+
+/* Set the background image for the body */
 body {
-    background-color: red;
-    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-header {
-    background-color: purple;
-    text-align: center;
-    padding: 20px;
+/* Set the image to fit for all browsers */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-nav ul {
-    background-color: brown;
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-nav a:hover {
-    color: purple; /* Set your desired link color on hover */
-}
-
-main {
-    text-align: center;
-    padding: 20px;
-}
-
+/* Style the footer */
 footer {
-    background-color: red;
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;
-    width: 100%;
+    left: 0;
     bottom: 0;
+    width: 100%;
 }
