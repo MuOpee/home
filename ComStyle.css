@@ -1,5 +1,46 @@
 /* CSS file */
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 20px;
+}
+
+nav li {
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: purple; /* Set your desired link color on hover */
+}
+
+#myFooter {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 /* Set the background image for the body */
 body {
     background-image: url('Elements/Images/DAF22E2E-BCDF-4E7F-A120-07C858EB1282.jpeg');
@@ -28,16 +69,4 @@ h4 {
 
 h5 {
     color: white;
-}
-
-/* Style the footer */
-footer {
-    background-color: transparent;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
