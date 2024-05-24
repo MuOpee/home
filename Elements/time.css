@@ -1,0 +1,11 @@
+/* styles.css */
+main {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.clock {
+    font-size: 24px;
+    margin-top: 50px;
+}
