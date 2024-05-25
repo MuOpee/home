@@ -43,7 +43,7 @@ nav {
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     z-index: 1;
-    background-color: white;
+    background-color: black;
 }
 
 nav a {
@@ -189,7 +189,7 @@ nav .fa-solid {
 }
 
 .container .img {
-    background-image: url("../assets/newpro.jpg");
+    background-image: url("Elements/Images/PNG image.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 25rem;
