@@ -2,10 +2,10 @@
     background-color: transparent;
     color: black;
     text-align: center;
-    padding: 4px;
+    padding: 7px;
     position: fixed;
     width: 100%;
-    bottom: 0;
+    bottom: 0.5;
 }
 /* Set the background image for the body */
 body {
