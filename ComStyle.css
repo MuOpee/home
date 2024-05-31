@@ -52,3 +52,34 @@ h4 {
 h5 {
     color: white;
 }
+
+/* styles.css */
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#play-pause-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#volume-control {
+    width: 100px;
+}
