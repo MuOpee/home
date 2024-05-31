@@ -37,9 +37,9 @@ h4 {
 #audio-player-container {
     width: 100%;
     text-align: center; /* Center the iframe horizontally */
-    background-color: #333;
+    background-color: Purple;
     padding: 20px;
-    color: #fff;
+    color: white;
 }
 
 #audio-player {
