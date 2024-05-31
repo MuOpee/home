@@ -33,7 +33,22 @@ h2 {
 h4 {
     color: red;
 }
-/* styles.css */
+
+.audio-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+    display: block;
+}
+
+#volume-control {
+    width: 100%;
+}
+
 
 #audio-player-container {
     width: 100%;
