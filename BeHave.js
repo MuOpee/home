@@ -17,3 +17,26 @@ var nav = document.getElementById("navBarMob")
                 nav.style.left = `-105%`
             }
         }
+// script.js
+
+const video = document.getElementById('my-video');
+const playPauseButton = document.getElementById('play-pause-button');
+const volumeControl = document.getElementById('volume-control');
+
+playPauseButton.addEventListener('click', togglePlay);
+volumeControl.addEventListener('input', setVolume);
+
+function togglePlay() {
+    if (video.paused || video.ended) {
+        video.play();
+        playPauseButton.textContent = 'Pause';
+    } else {
+        video.pause();
+        playPauseButton.textContent = 'Play';
+    }
+}
+
+function setVolume() {
+    video.volume = volumeControl.value;
+}
+
