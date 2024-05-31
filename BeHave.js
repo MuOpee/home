@@ -39,4 +39,15 @@ function togglePlay() {
 function setVolume() {
     video.volume = volumeControl.value;
 }
+// script.js
+
+const audio = document.getElementById('my-audio');
+const volumeControl = document.getElementById('volume-control');
+
+volumeControl.addEventListener('input', setVolume);
+
+function setVolume() {
+    audio.volume = volumeControl.value;
+}
+
 
