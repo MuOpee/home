@@ -99,3 +99,30 @@ video {
 #volume-control {
     width: 100px;
 }
+
+.nude-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: purple;
+            color: yellow;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+.nude-button:hover {
+            background-color: grey;
+        }
+.my-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+.my-button:hover {
+            background-color: red;
+        }
