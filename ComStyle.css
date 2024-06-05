@@ -159,8 +159,8 @@ video {
         color: aqua;
     }
     img{
-        width: 100%;
+        width: 50%;
         height: auto;
-        border-radius: 50%;  
+        border-radius: 5%;  
     }
 }
