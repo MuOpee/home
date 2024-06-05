@@ -142,27 +142,22 @@ video {
         height: auto;
     }
 .chudir-bhai{
-    table-layout: auto;
+    background-color: black;
     text-align: left;
-    table{
-        margin: auto;
-        border-collapse: collapse;
-        width: 100%;
-        height: auto;
-    }
-    th, td{
-        border-radius: 5%;
-        border: 5px solid maroon;
-        text-align: left;
-        text-decoration: dotted;
-        background-color: black;
-        height: auto;
-        color: violate;
-    }
-    img{
-        width: 50%;
-        max-width: 120px;
-        height: auto;
-        border-radius: 2%;  
-    }
+    text-color: white;
+            ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+            border-radius: 2%;
+        }
 }
