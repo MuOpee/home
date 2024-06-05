@@ -144,18 +144,19 @@ video {
 
         .image-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: 20px;
         }
         .image {
             padding: 10px;
             border: 1px solid #ddd;
         }
-.flex-container {
-    display: flex;
+.magi-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Two equal columns */
 }
-.flex-child {
-    flex: 1;
+.magir-child {
     padding: 10px;
-    border: 1px solid green;
+    border: 1px solid purple;
 }
+
