@@ -141,25 +141,21 @@ video {
         width: 100%;
         height: auto;
     }
-.chudir-bhai{
-    background-color: black;
-    text-align: left;
-    text-color: white;
-    color: white;
-            ul {
-            list-style: none;
-            padding: 0;
+
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
-        li {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
+        .image {
+            padding: 10px;
+            border: 1px solid #ddd;
         }
-        img {
-            width: 45%;
-            max-width: 240px;
-            height: auto;
-            margin-right: 10px;
-            border-radius: 2%;
-        }
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid green;
 }
