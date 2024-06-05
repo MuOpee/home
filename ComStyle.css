@@ -141,3 +141,26 @@ video {
         width: 100%;
         height: auto;
     }
+.chudir-bhai{
+    table-layout: auto;
+    text-align: left;
+    table{
+        margin: auto;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    th, td{
+        border-radius: 5%;
+        border: 2px solid maroon;
+        text-align: left;
+        text-decoration: dotted;
+        background-color: black;
+        color: aqua;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 50%;  
+    }
+}
