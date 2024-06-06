@@ -149,7 +149,7 @@ video {
         }
         .image {
             padding: 5px;
-            image-radious: 25%;
+            border-radious: 50%;
             border: none;
             align-items: center;
         }
