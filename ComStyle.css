@@ -148,15 +148,19 @@ video {
             gap: 5px;
         }
         .image {
-            padding: 7px;
+            padding: 5px;
+            image-radious: 25%;
             border: none;
+            align-items: center;
         }
-.magi-container {
-    display: grid;
-    grid-template-columns: 1fr; /* Two equal columns */
-}
-.magir-child {
-    padding: 10px;
-    border: 1px solid purple;
-}
+        .magi {
+            padding: 5px;
+            border: none;
+            align-items: left;
+        }
+        .richa {
+            padding: 5px;
+            border: none;
+            align-items: right;
+        }
 
