@@ -66,35 +66,6 @@
     <br>
     <div class="card text-bg-primary mb-3" style="width: 100%;">
   <div class="card-header">
-      <h3 id="time"> </h3>
-          <script function updateTime() {
-    const now = new Date();
-    const options = {
-        timeZone: 'Asia/Dhaka', // Set the timezone to GMT+6
-        hour12: false, // Use 24-hour format
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-    };
-
-    const formattedTime = now.toLocaleTimeString('en-US', options);
-    const formattedDate = now.toLocaleDateString('en-US', options);
-
-    document.getElementById('time').textContent = formattedTime;
-    document.getElementById('date').textContent = formattedDate;
-}
-
-// Update the clock every second
-setInterval(updateTime, 1000);
-
-// Initial call to display the time immediately
-updateTime();
-          </script>
-      </h3>
       <h2 align="center">Welcom to The Home</h2></div>
   <div class="card-body">
     <p class="card-text"><h3 align="center">I am Mohammad Mujahid Hossain Opee,</h3>
