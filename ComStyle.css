@@ -1,3 +1,22 @@
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+  gap: 10px; /* Adjust the gap between items */
+}
+.grid-item {
+  width: 100%;
+  border: 2.5px solid violate;
+  padding: 10px;
+  aligh-items: left;
+}
+.grid-itemX {
+  width: 100%;
+  border: 2.5px solid violate;
+  padding: 10px;
+  aligh-items: right;
+}
+
 #myFooter {
     background-color: transparent;
     color: black;
