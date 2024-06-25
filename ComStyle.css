@@ -7,15 +7,7 @@
     width: 100%;
     bottom: 0.5;
 }
-/* Set the background image for the body */
-body {
-    background-image: url('Elements/Images/95DA79CE-3444-4564-9D1D-492549A6F3B8.jpeg');
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
-}
 
-/* Set the image to fit for all browsers */
 img {
     max-width: 100%;
     height: auto;
@@ -126,41 +118,26 @@ video {
 .my-button:hover {
             background-color: red;
         }
-    .container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;
-    }
-    .responsive-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: auto;
-    }
 
-        .image-container {
+.image-container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(2, 1fr);
             gap: 5px;
         }
         .image {
             padding: 5px;
             border-radious: 50%;
-            border: none;
+            border: 2.5px solid violate;
             align-items: center;
         }
         .magi {
             padding: 5px;
-            border: none;
+            border: 2.5px solid violate;
             align-items: left;
         }
         .richa {
             padding: 5px;
-            border: none;
+            border: 2.5px solid violate;
             align-items: right;
         }
 
